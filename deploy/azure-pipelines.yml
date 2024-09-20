@@ -9,7 +9,7 @@ pool:
 
 variables:
   - name: deploymentDefaultLocation
-    value: southeastasia
+    value: australiaeast
 
 stages:
 
