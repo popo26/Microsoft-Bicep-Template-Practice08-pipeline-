@@ -99,4 +99,5 @@ resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
   sku: environmentConfigurationMap[environmentType].storageAccount.sku
 }
 
+//This output is used for Test stage in yml pipeline as well
 output appServiceAppHostName string = appServiceApp.properties.defaultHostName
